@@ -152,8 +152,18 @@ export default function Home({ articles }) {
             Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="https://github.com" aria-label="Follow on GitHub" icon={GitHubIcon} />
-            <SocialLink href="https://linkedin.com" aria-label="Follow on LinkedIn" icon={LinkedInIcon} />
+            <SocialLink
+              href="https://github.com/amserra/"
+              target="_blank"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://linkedin.com/in/alexandre-serra/"
+              target="_blank"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
           </div>
         </div>
       </Container>
