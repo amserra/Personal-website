@@ -28,7 +28,7 @@ export function ArticleLayout({ children, meta, isRssFeed = false, previousPathn
   return (
     <>
       <Head>
-        <title>{`${meta.title} - Spencer Sharp`}</title>
+        <title>{`${meta.title} - Alexandre Serra`}</title>
         <meta name="description" content={meta.description} />
       </Head>
       <Container className="mt-16 lg:mt-32">

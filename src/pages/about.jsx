@@ -35,8 +35,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
-        <meta name="description" content="I’m Spencer Sharp. I live in New York City, where I design the future." />
+        <title>About - Alexandre Serra</title>
+        <meta name="description" content="I'm Alexandre Serra. I live in Lisbon, where I build software." />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -52,30 +52,44 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the future.
+              I'm Alexandre Serra. A Software Engineer Dedicated to Solving Real-World Problems.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years
-                old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to
-                type on.
+                I am a software engineer with a deep-rooted passion for computers that dates back to my early childhood.
+                Ever since I was 10 years old, I have been fascinated by the world of technology and have continuously
+                nurtured my interest in this field. This fascination eventually led me to pursue a career in software
+                engineering, where I could turn my passion into a profession.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space. When I was 8, I climbed the 40-foot oak
-                tree at the back of our yard while wearing my older sister’s motorcycle helmet, counted down from three,
-                and jumped — hoping the tree was tall enough that with just a bit of momentum I’d be able to get to
-                orbit.
+                One of the aspects I truly enjoy about being a software engineer is the ability to build software that
+                solves real-world problems and positively impacts people's lives. I find immense satisfaction in
+                developing applications and systems that provide meaningful solutions, whether it's streamlining
+                business processes, enhancing communication, or improving the overall efficiency of a particular task.
+                Being able to witness the tangible impact of my work is what drives me forward in this field.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design, while I recovered from the multiple
-                surgeries it took to fix my badly broken legs. It took nine iterations, but when I was 15 I sent my
-                dad’s Blackberry into orbit and was able to transmit a photo back down to our family computer from
-                space.
+                In addition to my dedication to software engineering, I have also dedicated a significant portion of my
+                life to being a water polo athlete. For over 11 years, I have immersed myself in the world of this
+                competitive sport, constantly striving to improve my skills and reach new heights. Representing my
+                national team has been an incredible honor, allowing me to compete at the highest level and showcase my
+                commitment, discipline, and teamwork.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on civilian space suits and manned shuttle
-                kits you can assemble at home so that the next generation of kids really <em>can</em> make it to orbit —
-                from the comfort of their own backyards.
+                One of the defining characteristics that sets me apart both as a software engineer and an athlete is my
+                relentless pursuit of perfection. I approach every task with meticulous attention to detail and a
+                determination to achieve excellence. This perfectionist mindset drives me to constantly refine my
+                skills, refine my code, and deliver high-quality work. It's this dedication to perfection that has made
+                me a highly skilled professional in my field.
+              </p>
+              <p>
+                Overall, I am a software engineer who combines a lifelong passion for computers with a desire to make a
+                meaningful impact through my work. With a background in water polo, I bring the same level of
+                dedication, discipline, and teamwork to my professional endeavors. Through my unwavering commitment to
+                perfection, I strive to deliver exceptional results in every project I undertake.
+              </p>
+              <p className="text-sm">
+                <em>Yes, this text was written with the help of a LLM.</em>
               </p>
             </div>
           </div>
