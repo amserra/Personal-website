@@ -7,10 +7,9 @@ import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import { Container } from '@/components/Container';
 import { GitHubIcon, LinkedInIcon } from '@/components/Icons';
-import logoAirbnb from '@/images/logos/airbnb.svg';
-import logoFacebook from '@/images/logos/facebook.svg';
-import logoPlanetaria from '@/images/logos/planetaria.svg';
-import logoStarbucks from '@/images/logos/starbucks.svg';
+import logoCleanwatts from '@/images/logos/cleanwatts.jpeg';
+import logoStaruplo from '@/images/logos/staruplo.jpeg';
+import logoInescid from '@/images/logos/inescid.jpeg';
 import image1 from '@/images/photos/image-1.jpg';
 import image2 from '@/images/photos/image-2.jpg';
 import image3 from '@/images/photos/image-3.jpg';
@@ -45,35 +44,28 @@ function SocialLink({ icon: Icon, ...props }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Cleanwatts',
+      title: 'Fullstack Software Engineer',
+      logo: logoCleanwatts,
+      start: 'Jan. 2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Staruplo',
+      title: 'Fullstack Software Engineer',
+      logo: logoStaruplo,
+      start: 'Mar. 2022',
+      end: 'Aug. 2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'INESC-ID',
+      title: 'Research Collaborator',
+      logo: logoInescid,
+      start: 'Feb. 2021',
+      end: 'Apr. 2022',
     },
   ];
 
