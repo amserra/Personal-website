@@ -1,3 +1,3 @@
-# Personal-website
+# My personal webiste
 
-This is a temporary page that says the website is under construction.
+This is the repository for my personal website, deployed at [https://alexandreserra.com](https://alexandreserra.com)
