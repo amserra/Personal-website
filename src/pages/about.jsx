@@ -12,6 +12,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target="_blank"
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
@@ -36,7 +37,10 @@ export default function About() {
     <>
       <Head>
         <title>About - Alexandre Serra</title>
-        <meta name="description" content="I'm Alexandre Serra. I live in Lisbon, where I build software." />
+        <meta
+          name="description"
+          content="I'm Alexandre Serra. A Software Engineer Dedicated to Solving Real-World Problems."
+        />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -46,7 +50,7 @@ export default function About() {
                 src={portraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
-                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover object-top dark:bg-zinc-800"
               />
             </div>
           </div>
@@ -88,24 +92,21 @@ export default function About() {
                 dedication, discipline, and teamwork to my professional endeavors. Through my unwavering commitment to
                 perfection, I strive to deliver exceptional results in every project I undertake.
               </p>
-              <p className="text-sm">
-                <em>Yes, this text was written with the help of a LLM.</em>
-              </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/amserra/" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://linkedin.com/in/alexandre-serra/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:me@alexandreserra.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
-                spencer@planetaria.tech
+                me@alexandreserra.com
               </SocialLink>
             </ul>
           </div>

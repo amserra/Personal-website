@@ -98,7 +98,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button href="alexandre_serra.pdf" target="_blank" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -139,7 +139,8 @@ export default function Home({ articles }) {
         <title>Alexandre Serra - Software designer, founder, and amateur astronaut</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I'm Alexandre, a software engineer and entrepreneur based in Lisbon. I am constantly working and testing new
+          ideas, and I strive for excellence."
         />
       </Head>
       <Container className="mt-9">

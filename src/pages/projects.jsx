@@ -3,42 +3,43 @@ import Image from 'next/image';
 
 import { Card } from '@/components/Card';
 import { SimpleLayout } from '@/components/SimpleLayout';
-import logoAnimaginary from '@/images/logos/animaginary.svg';
-import logoCosmos from '@/images/logos/cosmos.svg';
-import logoHelioStream from '@/images/logos/helio-stream.svg';
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg';
-import logoPlanetaria from '@/images/logos/planetaria.svg';
+import logoRivercure from '@/images/logos/rivercure.jpeg';
+import logoMaestro from '@/images/logos/maestro.svg';
+import logoPoloaquaticopt from '@/images/logos/poloaquaticopt.svg';
+import logoHandonvitals from '@/images/logos/handonvitals.png';
+import logoSportsin from '@/images/logos/sportsin.svg';
 
 const projects = [
   {
-    name: 'Planetaria',
-    description: 'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    name: 'SportsIn',
+    description:
+      'Web and mobile app for publishing local sports events. To be launched September 2023. Repositories will be public on launch.',
+    link: { href: 'https://github.com/SportsIn-dev/', label: 'github.com' },
+    logo: logoSportsin,
   },
   {
-    name: 'Animaginary',
-    description: 'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    name: 'HandOnVitals',
+    description: 'Frontend and backend for a medical device project that reads 5 vital sign simultaneously.',
+    link: { href: 'https://github.com/HandOnVitals/', label: 'github.com' },
+    logo: logoHandonvitals,
   },
   {
-    name: 'HelioStream',
-    description: 'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    name: 'Maestro',
+    description: 'My Master thesis project: a generic data fetching, gathering and processing tool  .',
+    link: { href: 'https://github.com/amserra/Maestro', label: 'github.com' },
+    logo: logoMaestro,
   },
   {
-    name: 'cosmOS',
-    description: 'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    name: 'RiverCure',
+    description: 'The first big project I worked on, aimed at improving the forecasting capabilities of flood events.',
+    link: { href: 'https://github.com/amserra/Rivercure-Portal', label: 'github.com' },
+    logo: logoRivercure,
   },
   {
-    name: 'OpenShuttle',
-    description: 'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    name: 'Poloaquatico.pt',
+    description: 'A blog platform for water polo news I made to learn React.',
+    link: { href: 'https://github.com/amserra/poloaquatico.pt', label: 'github.com' },
+    logo: logoPoloaquaticopt,
   },
 ];
 
@@ -57,12 +58,12 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
-        <meta name="description" content="Things I’ve made trying to put my dent in the universe." />
+        <title>Projects - Alexandre Serra</title>
+        <meta name="description" content="Projects I have built, endeavoring to make my impact on the world." />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.">
+        title="Projects I have built, endeavoring to make my impact on the world."
+        intro="I've worked on several projects over the years but these are the ones that I'm most proud of. Many of them are open-source, so you can check the code on github.">
         <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <Card as="li" key={project.name}>
@@ -70,7 +71,9 @@ export default function Projects() {
                 <Image src={project.logo} alt="" className="h-8 w-8" unoptimized />
               </div>
               <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                <Card.Link href={project.link.href}>{project.name}</Card.Link>
+                <Card.Link href={project.link.href} target="_blank">
+                  {project.name}
+                </Card.Link>
               </h2>
               <Card.Description>{project.description}</Card.Description>
               <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
