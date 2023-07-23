@@ -136,7 +136,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Alexandre Serra - Software designer, founder, and amateur astronaut</title>
+        <title>Alexandre Serra - Software engineer, entrepreneur, and athlete</title>
         <meta
           name="description"
           content="I'm Alexandre, a software engineer and entrepreneur based in Lisbon. I am constantly working and testing new
