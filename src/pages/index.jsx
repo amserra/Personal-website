@@ -139,8 +139,7 @@ export default function Home({ articles }) {
         <title>Alexandre Serra - Software engineer, entrepreneur, and athlete</title>
         <meta
           name="description"
-          content="I'm Alexandre, a software engineer and entrepreneur based in Lisbon. I am constantly working and testing new
-          ideas, and I strive for excellence."
+          content="I'm Alexandre, a software engineer based in Lisbon. I strive for excellence."
         />
       </Head>
       <Container className="mt-9">
