@@ -12,8 +12,7 @@ import logoSportsin from '@/images/logos/sportsin.svg';
 const projects = [
   {
     name: 'SportsIn',
-    description:
-      'Web and mobile app for publishing local sports events. To be launched September 2023. Repositories will be public on launch.',
+    description: 'Web and mobile app for publishing local sports events. To be launched soon.',
     link: { href: 'https://github.com/SportsIn-dev/', label: 'github.com' },
     logo: logoSportsin,
   },
